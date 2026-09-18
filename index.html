@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Synthèse scolaire personnelle</title>
+<style>body{font:17px/1.65 system-ui,sans-serif;color:#243044;background:#f5f7fb;margin:0}main{max-width:800px;margin:40px auto;padding:32px;background:white;border-radius:16px}h1,h2{line-height:1.2;color:#16305c}a{color:#1754ad}section{margin-top:40px}small{color:#526079}@media(max-width:600px){main{margin:0;padding:24px;border-radius:0}}</style></head><body><main>
+<h1>Synthèse scolaire personnelle</h1>
+<p>Cette application à usage personnel prépare une synthèse en français d’informations scolaires consultées dans un espace parent Pronote autorisé, puis l’envoie par Gmail au titulaire du compte.</p>
+<p>Elle regroupe les sept jours précédents, la journée en cours et les sept jours suivants. Le traitement applique des règles de dates et de présentation, sans service supplémentaire d’intelligence artificielle.</p>
+<p>Ce service privé n’est ni un service officiel de Pronote, ni une application proposée à l’inscription du public.</p>
+<p><a href="#confidentialite">Règles de confidentialité</a></p>
+<section id="confidentialite"><h2>Règles de confidentialité</h2><p><small>Mise à jour : 18 septembre 2026.</small></p>
+<h3>Données utilisées et finalité</h3>
+<p>L’application utilise les informations scolaires accessibles au compte parent autorisé : devoirs, évaluations, notes, événements signalés dans l’emploi du temps, éléments de vie scolaire disponibles et annonces. Ces données servent uniquement à préparer et envoyer la synthèse personnelle demandée.</p>
+<h3>Autorisation Google</h3>
+<p>L’unique autorisation Google demandée est l’envoi de messages avec Gmail (gmail.send). L’application utilise cette autorisation pour envoyer la synthèse depuis le compte autorisé vers ce même compte. Elle ne demande pas d’accès à la lecture de la boîte de réception, aux contacts ou aux fichiers Google Drive.</p>
+<h3>Traitement, stockage et destinataires</h3>
+<p>Le programme s’exécute dans GitHub Actions au sein d’un dépôt privé. Les identifiants Pronote et le jeton Google renouvelable sont conservés dans les secrets chiffrés du dépôt. Les données scolaires sont traitées pendant l’exécution ; elles ne sont pas publiées dans le dépôt, les journaux ou les artefacts GitHub. Un registre privé conserve uniquement les dates, statuts et identifiants techniques nécessaires pour prévenir les doublons.</p>
+<p>Google traite et conserve les courriels dans Gmail selon les réglages du titulaire. Le destinataire prévu est le titulaire du compte. Les données ne sont ni vendues, ni utilisées à des fins publicitaires ou d’entraînement d’un modèle d’intelligence artificielle.</p>
+<h3>Contrôle et suppression</h3>
+<p>Le titulaire peut désactiver les envois dans GitHub Actions, supprimer les secrets et le registre privé, effacer les messages dans Gmail et révoquer l’autorisation dans les <a href="https://myaccount.google.com/connections">connexions de son compte Google</a>. L’adresse d’assistance du titulaire est indiquée sur l’écran de consentement Google.</p>
+<h3>Usage des données Google</h3>
+<p>L’utilisation des informations reçues des API Google respecte la <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, y compris les exigences de Limited Use.</p>
+<h3>Cette page publique</h3>
+<p>Cette page décrit le fonctionnement du service. Elle ne contient aucune donnée scolaire, aucun nom d’élève et aucun identifiant de connexion. Elle n’intègre ni formulaire de collecte, ni outil de suivi publicitaire.</p>
+</section></main></body></html>
